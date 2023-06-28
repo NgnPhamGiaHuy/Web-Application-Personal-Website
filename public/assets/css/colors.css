@@ -1,0 +1,43 @@
+:root {
+    --website-title-1-color: #18191F;
+    --website-sub-title-1-color: #474A57;
+    --website-sub-title-2-color: #969BAB;
+    --website-sub-title-3-color: #BDBDBD;
+    --website-sub-title-4-color: #D9DBE1;
+    --website-sub-title-5-color: #EEEFF4;
+    --website-sub-title-6-color: #F4F5F7;
+    --website-link-1-color: #4475F2;
+    --website-link-2-color: #789DFC;
+    --website-link-3-color: #D9E3FC;
+    --website-link-4-color: #E5EDFF;
+}
+
+:root {
+    --scroll-bar: 15px;
+    --color-text: rgb(68, 68, 68);
+    --color-border: rgb(230, 230, 230);
+    --color-accent: rgb(0, 0, 0);
+    --color-lighter: rgb(153, 153, 153);
+
+    --color-primary: #4475F2;
+    --color-primary-hover: #1d3d90;
+    --color-background: #F8F9FAFF;
+
+    --color-black: rgb(0, 0, 0);
+    --color-black-opacity: rgba(0, 0, 0, 0.1);
+    --color-white: rgb(255, 255, 255);
+    --color-white-opacity: rgba(255, 255, 255, 0.1);
+
+    --color-pale-pink: rgb(247, 141, 167);
+    --color-vivid-red: rgb(207, 46, 46);
+    --color-vivid-purple: rgb(155, 81, 224);
+    --color-deep-sea-blue: rgb(34, 61, 77);
+    --color-lavender-blue: rgb(205, 191, 255);
+    --color-pale-cyan-blue: rgb(142, 209, 252);
+    --color-vivid-cyan-blue: rgb(6, 147, 227);
+    --color-light-green-cyan: rgb(123, 220, 181);
+    --color-cyan-bluish-gray: rgb(160, 174, 192);
+    --color-vivid-green-cyan: rgb(0, 208, 132);
+    --color-luminous-vivid-amber: rgb(252, 185, 0);
+    --color-luminous-vivid-orange: rgb(255, 105, 0);
+}

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gia Huy - Personal Website</title>
+    <link rel="icon" href="../assets/img/logo/logo.png" type="image/icon type" class="logo">
+    <link rel="stylesheet" href="../assets/css/colors.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/d8ded057c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__container-logo">
+                <div class="header__container-logo-image">
+                    <img src="../assets/img/logo/logo.png" class="logo--img">
+                </div>
+                <a href="#" class="header__container-logo-title">uy Nguyen</a>
+            </div>
+            <div class="header__container-searchbar">
+                <form action="" class="header__container-searchbar-form">
+                    <input type="text" class="header__container-searchbar-input" onfocus="changeInputBorderRadius(true)"
+                        onblur="changeInputBorderRadius(false)" placeholder="Search more about me...">
+                    <button type="submit" class="header__container-searchbar-button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="header__container-language">
+                <div class="header__container-language-icon">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <h3 class="header__container-language-options">
+                    English(US)
+                </h3>
+                <button type="button" class="header__container-language-button">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+            </div>
+            <div class="header__container-location">
+                <div class="header__container-location-icon">
+                    <img src="../assets/img/icon/vietnam.png" alt="" class="header__container-location-icon-image">
+                </div>
+                <div class="header__container-location-details">
+                    <span class="header__container-location-details-subtitle">Live at</span>
+                    <a class="header__container-location-details-title">Viet Nam, Ho Chi Minh city</a>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="navigation__container">
+                <ul class="navigation__container-list">
+                    <li class="navigation__container-list-item">
+                        <a href="/about.html" class="navigation__container-link">
+                            <span class="navigation__links">About me</span>
+                        </a>
+                    </li>
+                    <li class="navigation__container-list-item">
+                        <a href="" class="navigation__container-link">
+                            <span class="navigation__links">Knowledge</span>
+                        </a>
+                    </li>
+                    <li class="navigation__container-list-item">
+                        <a href="" class="navigation__container-link">
+                            <span class="navigation__links">Certificates</span>
+                        </a>
+                    </li>
+                    <li class="navigation__container-list-item">
+                        <a href="" class="navigation__container-link">
+                            <span class="navigation__links">Blogs</span>
+                        </a>
+                    </li>
+                    <li class="navigation__container-list-item">
+                        <a href="" class="navigation__container-link">
+                            <span class="navigation__links">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="information__section">
+            <div class="information__container">
+                <div class="information__container-describe">
+                    <div class="information__container-describe-subtitle">
+                        <img src="../assets/img/icon/more.png" alt="" class="information__container-describe-icon"
+                            style="transform: rotate(-45deg)">
+                        <h4>Let me introduce about myself!</h4>
+                    </div>
+                    <div class="information__container-describe-title">
+                        <h1>
+                            My name is
+                            <a href="" class="information__container-describe-title-link">Huy Nguyen</a>, a programmer
+                        </h1>
+                    </div>
+                    <div class="information__container-describe-summary">
+                        <p>
+                            A young man studying at an International University has a passion for programming.
+                            Currently, in the near future he is still trying his best, striving for the purpose of
+                            developing himself better and better. And this website is just the beginning of that
+                            process.
+                        </p>
+                    </div>
+                    <div class="information__container-describe-buttons">
+                        <a href="" class="information__container-describe-buttons-link">
+                            <h4>
+                                Contact now
+                            </h4>
+                            <i class="fa-solid fa-arrow-right fa-lg"></i>
+                        </a>
+                        <div class="information__container-describe-buttons-find">
+                            <a href="" class="information__container-describe-buttons-find-link">
+                                <span class="material-symbols-outlined">
+                                    play_arrow
+                                </span>
+                            </a>
+                            <h4>
+                                Find out more
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="information__container-image">
+                    <img src="../assets/img/HinhNhuLaHuy.png" alt="" class="information__container-image-background">
+                    <span class="information__container-image-job">
+                        <img src="../assets/img/icon/coding.png" alt="" class="information__container-describe-icon">
+                        <h4>
+                            Full-stack
+                        </h4>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="programming__section">
+            <div class="programming__container">
+                <ul class="programming__container-list" id="programming-slider">
+                    <li class="programming__container-list-item">
+                        <img src="../assets/img/logo/java-logo.png" alt="" class="programming__container-image">
+                        <span class="programming__container-detail">Java</span>
+                    </li>
+                    <li class="programming__container-list-item">
+                        <img src="../assets/img/logo/nodejs-logo.png" alt="" class="programming__container-image">
+                        <span class="programming__container-detail">NodeJS</span>
+                    </li>
+                    <li class="programming__container-list-item">
+                        <img src="../assets/img/logo/javascript-logo.png" alt="" class="programming__container-image">
+                        <span class="programming__container-detail">JavaScript</span>
+                    </li>
+                    <li class="programming__container-list-item">
+                        <img src="../assets/img/logo/react-logo.png" alt="" class="programming__container-image">
+                        <span class="programming__container-detail">React</span>
+                    </li>
+                    <li class="programming__container-list-item">
+                        <img src="../assets/img/logo/mysql.png" alt="" class="programming__container-image">
+                        <span class="programming__container-detail">MySQL</span>
+                    </li>
+                    <li class="programming__container-list-item" style="display: none">
+                        <img src="../assets/img/logo/mysql.png" alt="" class="programming__container-image">
+                        <span class="programming__container-detail">MySQL</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="certificate__section">
+            <div class="certificate__container">
+                <div class="certificate__container-header">
+                    <div class="certificate__container-header-subtitle">About my skills</div>
+                    <div class="certificate__container-header-title">
+                        <h3>Most recently obtained certificates</h3>
+                        <a href="" class="certificate__container-header-more">
+                            Show more
+                            <i class="fa-solid fa-angles-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="certificate__container-body">
+                    <ul class="certificate__container-body-list">
+                        <li class="certificate__container-body-list-item">
+                            <img src="../assets/img/certificate/Coursera-Google-Project-Management.png" alt="" class="certificate__container-body-image">
+                            <div class="certificate__container-body-describe">
+                                <span class="certificate__container-body-date">1 June 2023</span>
+                                <h3 class="certificate__container-body-title">Coursera: Google Project Management</h3>
+                                <a href="" class="certificate__container-body-more">Click to see more</a>
+                            </div>
+                        </li>
+                        <li class="certificate__container-body-list-item">
+                            <img src="../assets/img/certificate/Coursera-Google-Project-Management.png" alt="" class="certificate__container-body-image">
+                            <div class="certificate__container-body-describe">
+                                <span class="certificate__container-body-date">1 July 2023</span>
+                                <h3 class="certificate__container-body-title">Coursera: Google Data Analytics</h3>
+                                <a href="" class="certificate__container-body-more">Click to see more</a>
+                            </div>
+                        </li>
+                        <li class="certificate__container-body-list-item">
+                            <img src="../assets/img/CodeLearn-JS-Certification.png" alt="" class="certificate__container-body-image">
+                            <div class="certificate__container-body-describe">
+                                <span class="certificate__container-body-date">26 February 2023</span>
+                                <h3 class="certificate__container-body-title">
+                                    /!----------------------------------------------!/
+                                </h3>
+                                <a href="" class="certificate__container-body-more">Click to see more</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--        <section class="projects__area">-->
+        <!--            <div class="area__container">-->
+        <!--                <div class="projects__area&#45;&#45;container">-->
+        <!--                    <div class="projects__area&#45;&#45;text">-->
+        <!--                        <div class="area__text&#45;&#45;describe">-->
+        <!--                            <div class="projects__area&#45;&#45;subtitle">A little bit about the project</div>-->
+        <!--                            <div class="projects__area&#45;&#45;title">The last time I participated in</div>-->
+        <!--                        </div>-->
+        <!--                        <div class="area__text&#45;&#45;comment">-->
+        <!--                            <ul>-->
+        <!--                                <li class="text__comment&#45;&#45;list">-->
+        <!--                                    <div class="display&#45;&#45;flex">-->
+        <!--                                        <div class="text__comment&#45;&#45;logo">&#128540;</div>-->
+        <!--                                        <div>-->
+        <!--                                            <div class="text__comment&#45;&#45;title">Good</div>-->
+        <!--                                            <div class="text__comment&#45;&#45;subtitle">-->
+        <!--                                                /!&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;!/-->
+        <!--                                            </div>-->
+        <!--                                        </div>-->
+        <!--                                    </div>-->
+        <!--                                </li>-->
+        <!--                                <li class="text__comment&#45;&#45;list">-->
+        <!--                                    <div class="display&#45;&#45;flex">-->
+        <!--                                        <div class="text__comment&#45;&#45;logo">&#128525;</div>-->
+        <!--                                        <div>-->
+        <!--                                            <div class="text__comment&#45;&#45;title">Not bad</div>-->
+        <!--                                            <div class="text__comment&#45;&#45;subtitle">-->
+        <!--                                                /!&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;!/-->
+        <!--                                            </div>-->
+        <!--                                        </div>-->
+        <!--                                    </div>-->
+        <!--                                </li>-->
+        <!--                                <li class="text__comment&#45;&#45;list">-->
+        <!--                                    <div class="display&#45;&#45;flex">-->
+        <!--                                        <div class="text__comment&#45;&#45;logo">&#128526;</div>-->
+        <!--                                        <div>-->
+        <!--                                            <div class="text__comment&#45;&#45;title">Interesting</div>-->
+        <!--                                            <div class="text__comment&#45;&#45;subtitle">-->
+        <!--                                                /!&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;!/-->
+        <!--                                            </div>-->
+        <!--                                        </div>-->
+        <!--                                    </div>-->
+        <!--                                </li>-->
+        <!--                            </ul>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                    <div class="projects__area&#45;&#45;image">-->
+        <!--                        <div class="projects__area&#45;&#45;detail">-->
+        <!--                            <div class="projects__area&#45;&#45;content">-->
+        <!--                                <img src="../assets/img/PollRoll-Project.png" alt="">-->
+        <!--                                <div class="projects__area&#45;&#45;describe">-->
+        <!--                                    <h3 class="area__describe&#45;&#45;title">Online Voting System</h3>-->
+        <!--                                    <div class="information__container-describe-subtitle">-->
+        <!--                                        <span class="area__describe&#45;&#45;date">24 Dec - 3 Mar</span>-->
+        <!--                                        <span class="area__describe&#45;&#45;date">|</span>-->
+        <!--                                        <span class="area__describe&#45;&#45;byWho">by Me</span>-->
+        <!--                                    </div>-->
+        <!--                                    <div class="area__describe&#45;&#45;tech">-->
+        <!--                                        <ul>-->
+        <!--                                            <li class="describe__tech&#45;&#45;list">-->
+        <!--                                                <div class="display&#45;&#45;flex" style="height: 100%;">-->
+        <!--                                                    <img src="../assets/img/HTML5-logo-2.png" alt="">-->
+        <!--                                                </div>-->
+        <!--                                            </li>-->
+        <!--                                            <li class="describe__tech&#45;&#45;list">-->
+        <!--                                                <div class="display&#45;&#45;flex" style="height: 100%;">-->
+        <!--                                                    <img src="../assets/img/CSS-logo-2.png" alt="">-->
+        <!--                                                </div>-->
+        <!--                                            </li>-->
+        <!--                                            <li class="describe__tech&#45;&#45;list">-->
+        <!--                                                <div class="display&#45;&#45;flex" style="height: 100%;">-->
+        <!--                                                    <img src="../assets/img/JS-logo-2.png" alt="">-->
+        <!--                                                </div>-->
+        <!--                                            </li>-->
+        <!--                                        </ul>-->
+        <!--                                    </div>-->
+        <!--                                    <div class="area__describe&#45;&#45;complete">-->
+        <!--                                        <span class="material-symbols-outlined">-->
+        <!--                                            add_task-->
+        <!--                                        </span>-->
+        <!--                                        <p class="descibe__complete&#45;&#45;detail">Finished interface</p>-->
+        <!--                                    </div>-->
+        <!--                                </div>-->
+        <!--                                <div class="projects__area&#45;&#45;progress">-->
+        <!--                                    <img src="../assets/img/HinhNhuLaHuy.png" alt="" class="area__progress&#45;&#45;img">-->
+        <!--                                    <div class="area__progress&#45;&#45;block">-->
+        <!--                                        <span class="area__progress&#45;&#45;status">Ongoing</span>-->
+        <!--                                        <h3 class="area__progress&#45;&#45;title">HinhNhuLaHuy</h3>-->
+        <!--                                        <div class="area__progress&#45;&#45;completeBar">-->
+        <!--                                            <span class="progress__completeBar&#45;&#45;status">-->
+        <!--                                                <span style="color: blue;">-->
+        <!--                                                    50%-->
+        <!--                                                </span>-->
+        <!--                                                completed</span>-->
+        <!--                                            <div class="progress__completeBar&#45;&#45;line">-->
+        <!--                                                <div class="completeBar__line&#45;&#45;realtime"></div>-->
+        <!--                                            </div>-->
+        <!--                                        </div>-->
+        <!--                                    </div>-->
+        <!--                                </div>-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </section>-->
+        <!--        <section class="blogs__area">-->
+        <!--            <div class="area__container">-->
+        <!--                <div class="blogs__area&#45;&#45;container">-->
+        <!--                    <div class="blogs__area&#45;&#45;text">-->
+        <!--                        <div class="area__text&#45;&#45;describe">-->
+        <!--                            <div class="blogs__area&#45;&#45;subtitle">Sometimes something interesting</div>-->
+        <!--                            <div class="blogs__area&#45;&#45;title">Gallery & Personal Blog</div>-->
+        <!--                        </div>-->
+        <!--                        <div class="blogs__area&#45;&#45;showmore">-->
+        <!--                            <a href="#" class="display&#45;&#45;flex">-->
+        <!--                                Find out more-->
+        <!--                                <span class="material-symbols-outlined">-->
+        <!--                                    arrow_forward_ios-->
+        <!--                                </span>-->
+        <!--                            </a>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                    <div class="blogs__area&#45;&#45;content">-->
+        <!--                        <div class="blogs__area&#45;&#45;blogs">-->
+        <!--                            <img src="../assets/img/JS-news.png" alt="">-->
+        <!--                            <div class="blogs__area&#45;&#45;describe">-->
+        <!--                                <span class="area__describe&#45;&#45;date">26 February 2023</span>-->
+        <!--                                <h3 class="area__describe&#45;&#45;title">What is Javascript and how to learn it?</h3>-->
+        <!--                                <p class="area__describe&#45;&#45;paragraph">JavaScript is a text-based programming language-->
+        <!--                                    that allows you to create interactive elements on your web page.-->
+
+        <!--                                    The World Wide Web as we know it looks nothing like the early days of grey boxes and-->
+        <!--                                    walls of text. Nowadays, we can’t imagine browsing the web without interactive-->
+        <!--                                    websites, clickable buttons, and online video games. The ways we interact with the-->
+        <!--                                    internet have radically changed over the years and, for the most part, it’s all down-->
+        <!--                                    to JavaScript.</p>-->
+        <!--                                <a href="" class="area__describe&#45;&#45;seemore">Click to see more</a>-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                        <div class="blogs__area&#45;&#45;video">-->
+        <!--                            <video src="../assets/img/Video-news.mp4" autoplay="autoplay" loop="" controls></video>-->
+        <!--                        </div>-->
+        <!--                        <div class="blogs__area&#45;&#45;views">-->
+        <!--                            <img src="https://c1.wallpaperflare.com/preview/81/417/316/lake-sunset-dawn-the-sun.jpg"-->
+        <!--                                alt="" class="area__views&#45;&#45;img">-->
+        <!--                            <div class="area__views&#45;&#45;text">-->
+        <!--                                <h3 class="area__view&#45;&#45;title">Let me tell you about Dalat - a city worth living</h3>-->
+        <!--                                <p class="area__view&#45;&#45;paragraph">-->
+        <!--                                    Da Lat features a subtropical highland climate under the Köppen climate-->
+        <!--                                    classification and is mostly mild year round. Da Lat's year-round temperate weather,-->
+        <!--                                    standing in contrast to central & southern Vietnam’s otherwise-tropical climate, has-->
+        <!--                                    led it to be nicknamed the “City of eternal spring”. The average temperature is 14-->
+        <!--                                    °C (57 °F) - 23 °C (73 °F). The highest temperature ever in Da Lat was 31.5 °C (88.7-->
+        <!--                                    °F), and the lowest was −0.6 °C (30.9 °F). Mist covers the adjoining valleys almost-->
+        <!--                                    year-round. Its temperate climate also makes it ideal for agriculture. Indeed, Da-->
+        <!--                                    Lat is renowned for its orchids, roses, vegetables, and fruits. There are nascent-->
+        <!--                                    wine-making and flower-growing industries in the region.-->
+        <!--                                </p>-->
+        <!--                                <div class="display&#45;&#45;flex">-->
+        <!--                                    <a href="" class="area__view&#45;&#45;link">-->
+        <!--                                        YuhBlogs.com-->
+        <!--                                    </a>-->
+        <!--                                </div>-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </section>-->
+        <!--        <section class="hireme__area">-->
+        <!--            <div class="area__container">-->
+        <!--                <div class="hireme__area&#45;&#45;content">-->
+        <!--                    <div class="hireme__area&#45;&#45;title">-->
+        <!--                        <h3>Why Should You Hire Me</h3>-->
+        <!--                    </div>-->
+        <!--                    <div class="hireme__area&#45;&#45;subtitle">-->
+        <!--                        <span>-->
+        <!--                            /!-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;!/-->
+        <!--                        </span>-->
+        <!--                    </div>-->
+        <!--                    <div class="hireme__area&#45;&#45;seemore">-->
+        <!--                        <a href="">-->
+        <!--                            <div class="display&#45;&#45;flex" style="justify-content: start;">-->
+        <!--                                Click to see more-->
+        <!--                                <span class="material-symbols-outlined" style="padding-top: 8px;">-->
+        <!--                                    arrow_forward-->
+        <!--                                </span>-->
+        <!--                            </div>-->
+        <!--                        </a>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--                <div class="hireme__area&#45;&#45;image">-->
+        <!--                    <img src="../assets/img/Hire-me.png" alt="">-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </section>-->
+    </main>
+    <footer>
+        <footer class="footer__container">
+            <div class="footer__container--information">
+                <div class="footer__container--logo">
+                    <div class="container__logo--img">
+                        <img src="../assets/img/logo/logo.png" class="logo--img">
+                    </div>
+                    <a href="#" class="container__logo--title">uy Nguyen</a>
+                </div>
+                <div class="footer__container--text">
+                    <p class="container__text--paragraph">
+                        /!-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                        <a href="" class="container__text--link">HinhNhuLaHuy</a>
+                        ----------------!/
+                    </p>
+                </div>
+                <div class="footer__container--info">
+                    <ul>
+                        <li class="container__info--list">
+                            <span class="material-symbols-outlined">
+                                call
+                            </span>
+                            <p>0969122412</p>
+                        </li>
+                        <li class="container__info--list">
+                            <span class="material-symbols-outlined">
+                                mail
+                            </span>
+                            <p>yuh.nguyenpham@gmail.com</p>
+                        </li>
+                        <li class="container__info--list">
+                            <span class="material-symbols-outlined">
+                                pin_drop
+                            </span>
+                            <p>Binh Gia, Vung Tau, Viet Nam</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__container--options">
+                <div class="container__options--list">
+                    <div class="options__list--title">
+                        <h3>/!-------!/</h3>
+                    </div>
+                    <ul>
+                        <li class="option__list--links">/!--------------!/</li>
+                        <li class="option__list--links">/!--------------!/</li>
+                        <li class="option__list--links">/!--------------!/</li>
+                        <li class="option__list--links">/!--------------!/</li>
+                    </ul>
+                </div>
+                <div class="container__options--list">
+                    <div class="options__list--title">
+                        <h3>/!-------!/</h3>
+                    </div>
+                    <ul>
+                        <li class="option__list--links">/!--------------!/</li>
+                        <li class="option__list--links">/!--------------!/</li>
+                        <li class="option__list--links">/!--------------!/</li>
+                        <li class="option__list--links">/!--------------!/</li>
+                    </ul>
+                </div>
+                <div class="container__options--list">
+                    <div class="options__list--title">
+                        <h3>/!-------!/</h3>
+                    </div>
+                    <ul>
+                        <li class="option__list--links">/!--------------!/</li>
+                        <li class="option__list--links">/!--------------!/</li>
+                        <li class="option__list--links">/!--------------!/</li>
+                        <li class="option__list--links">/!--------------!/</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </footer>
+</body>
+<script>
+    function changeInputBorderRadius(focus) {
+        const searchBar = document.querySelector(".header__container-searchbar-input");
+        if (focus) {
+            searchBar.classList.add("focus");
+        } else {
+            searchBar.classList.remove("focus")
+        }
+    }
+</script>
+
+</html>
